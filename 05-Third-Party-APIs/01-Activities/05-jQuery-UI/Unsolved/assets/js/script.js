@@ -30,6 +30,7 @@ var handleFormSubmit = function(event) {
 formEl.on('submit', handleFormSubmit);
 
 // TODO: Add comments to describe the functionality of this jQuery UI interaction
+// Sets up the Autocomplete with the list in the var
 $(function() {
   var skillNames = [
     'Bootstrap',
@@ -57,6 +58,7 @@ $(function() {
 });
 
 // TODO: Add comments to describe the functionality of this jQuery UI interaction
+//Brings up a calader to pick a date
 $(function() {
   $('#datepicker').datepicker({
     changeMonth: true,
@@ -65,6 +67,7 @@ $(function() {
 });
 
 // TODO: Add comments to describe the functionality of this jQuery UI interaction
+//sorts the list of items that were made by dragging and dropping
 $(function() {
   $('#skills-list').sortable({
     placeholder: 'ui-state-highlight'
