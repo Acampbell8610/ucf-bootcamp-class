@@ -29,6 +29,7 @@ var getRepoIssues = function (repo) {
 
         // What is this checking for? Under what condition will this be `true`?
         // TODO: Write your answer here
+        //checks header for links that gets made with more than 30 issues
         if (response.headers.get('Link')) {
           displayWarning(repo);
         }
